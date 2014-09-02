@@ -14,6 +14,12 @@ public class Player
 	    avgRebounds = pRebounds;
 	    avgAssists = pAssists;
 	    }
+	
+    public double getAvgPoints()
+		{
+		return avgPoints;
+		}
+
     
 	public String toString()
 	    {
